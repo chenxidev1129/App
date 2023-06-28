@@ -2211,7 +2211,7 @@ function isCurrentUserTheOnlyParticipant(participantAccountIDs) {
  * Returns display names for those that can see the whisper.
  * However, it returns "you" if the current user is the only one who can see it besides the person that sent it.
  *
- * @param {number[]} participantAccountIDs
+ * @param {Number[]} participantAccountIDs
  * @returns {string}
  */
 function getWhisperDisplayNames(participantAccountIDs) {
